@@ -49,3 +49,10 @@ export const Separator = styled.View `
     background: #F0F0F0
 
  `;
+
+ export const BottomDivider = styled.View `
+    width:100%;
+    height:9px;
+    background: #f0f2f5;
+ 
+ `;

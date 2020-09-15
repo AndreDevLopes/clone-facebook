@@ -4,6 +4,7 @@ import {StatusBar , ScrollView} from 'react-native';
 import { Container } from './styles';
 import AppBar from './components/AppBar';
 import ToolBar from './components/ToolBar';
+import User from './components/User';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <ScrollView>
          <AppBar />
          <ToolBar />
+         <User />
         </ScrollView>
         
       </Container>

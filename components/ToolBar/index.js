@@ -1,12 +1,16 @@
 import React from 'react';
 
 
- import { Container,Row , Input , Divider , Menu, MenuText , Separator} from './styles';
- import {Ionicons , MaterialIcons} from '@expo/vector-icons';
+ import { Container,Row , Input ,
+          Divider , Menu, MenuText ,
+          Separator , BottomDivider} from './styles';
+ import {Ionicons , MaterialIcons , MaterialCommunityIcons} from '@expo/vector-icons';
  import Avatar from '../Avatar';
 
 const ToolBar = () => {
-  return (<Container>
+  return (
+  <>
+  <Container>
       <Row>
         <Avatar source={require('../../assets/user1.jpg')} />
         <Input placeholder="what's on your  mind?" />
@@ -32,8 +36,20 @@ const ToolBar = () => {
             />
             <MenuText>Photo</MenuText>
         </Menu>
+        <Separator />
+        <Menu>
+          <MaterialCommunityIcons
+            name="video-plus"
+            size={22}
+            color="#E141FC"
+          
+          />
+          <MenuText>Room</MenuText>
+        </Menu>
       </Row>
-  </Container>);
+  </Container>
+  <BottomDivider />
+  </>);
 }
 
 export default ToolBar;
