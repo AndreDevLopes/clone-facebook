@@ -3,9 +3,11 @@ import {ScrollView} from 'react-native';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 
 import { Container , Room , Text , Users} from './styles';
+import {BottomDivider} from '../ToolBar/styles';
 import Avatar from '../Avatar';
 const User = () => {
-  return (<Container>
+  return (<>
+  <Container>
 
       <ScrollView
         horizontal
@@ -45,8 +47,16 @@ const User = () => {
                 online={false}
             />
           </Users>
+          <Users>
+            <Avatar
+                source={require('../../assets/user2.jpg')}
+                online={false}
+            />
+          </Users>
       </ScrollView>
-  </Container>);
+  </Container>
+  <BottomDivider /> 
+  </>);
 }
 
 export default User;

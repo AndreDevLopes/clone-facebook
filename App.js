@@ -5,6 +5,7 @@ import { Container } from './styles';
 import AppBar from './components/AppBar';
 import ToolBar from './components/ToolBar';
 import User from './components/User';
+import Story from './components/Story';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
          <AppBar />
          <ToolBar />
          <User />
+         <Story />
         </ScrollView>
         
       </Container>
