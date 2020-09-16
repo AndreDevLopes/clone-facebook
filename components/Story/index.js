@@ -4,7 +4,8 @@ import {AntDesign} from '@expo/vector-icons';
 
 import { Container , Card , CardStory  ,
          CardUser, CardFooter , Text} from './styles';
-import Avatar from '../Avatar';         
+import Avatar from '../Avatar';  
+import {BottomDivider} from '../ToolBar/styles';       
 
 const Story = () => {
   return (
@@ -78,6 +79,7 @@ const Story = () => {
             </Card>
         </ScrollView>
     </Container>
+    <BottomDivider />
   </>
  );
 }
