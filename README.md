@@ -1,5 +1,5 @@
 <h1 align = "center">
-  <img src = "/ assets / logo.png" width = "150">
+  <img src = "./assets/logo.png" width = "150">
 <br>
 <br>
 Clone React Native do Facebook
@@ -10,7 +10,7 @@ Clone React Native do Facebook
 
 <div align = "center">
    <a href="https://www.youtube.com/watch?v=yLnRIeaLeBY">
-   <img align = "center" src = "/ assets / app.gif" width = "230px">
+   <img align = "center" src = "./assets/app.gif" width = "230px">
    </a>
 
 </div>
